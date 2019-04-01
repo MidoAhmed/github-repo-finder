@@ -1,0 +1,1 @@
+this module holds the views that are not a part of any feature and whose routing paths are defined in AppRoutingModule
