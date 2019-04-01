@@ -8,9 +8,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {LayoutModule} from './layout/layout.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
 
     // Angular modules

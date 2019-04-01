@@ -1,11 +1,18 @@
 import {NgModule, Optional, SkipSelf} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
+import {HomeComponent} from './layout/home/home.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
     pathMatch: 'full',
+    component: HomeComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: './features/list/list.module#ListModule',
+      }
+    ]
   },
   {
     path: '**',

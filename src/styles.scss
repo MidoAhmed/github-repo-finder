@@ -849,7 +849,13 @@ select::-ms-expand {
 }
 
 .landing__section {
+  height: -webkit-fill-available;
   padding: 24pt 0;
+  background-image: url("./assets/images/hero-circuit-bg.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 2;
 }
 
 .landing__section:nth-child(odd) {
@@ -1028,7 +1034,8 @@ select::-ms-expand {
 .hero {
   position: relative;
   width: 100%;
-  background-image: url("./assets/images/evie_default_bg.jpeg");
+  //background-image: url("./assets/images/evie_default_bg.jpeg");
+  background-image: url("./assets/images/hero-circuit-bg.svg");
   box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
   background-size: cover;
   background-position: center center;
@@ -1045,7 +1052,8 @@ select::-ms-expand {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.96;
+  //opacity: 0.96;
+  opacity: 0.78;
   z-index: 1;
   background-color: #6C63FF;
 }
