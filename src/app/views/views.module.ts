@@ -1,10 +1,21 @@
-import { NgModule } from '@angular/core';
+import {NgModule, Optional, SkipSelf} from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
+import {ViewsRoutingModule} from './views-routing.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    ViewsRoutingModule
   ],
-  declarations: []
+  declarations: [PageNotFoundComponent]
 })
-export class ViewsModule { }
+export class ViewsModule {
+  constructor(@Optional() @SkipSelf() parentModule: ViewsModule) {
+    if (parentModule) {
+      throw new Error(
+        'ViewsModule is already loaded. Import it in the AppModule only.'
+      );
+    }
+  }
+}
