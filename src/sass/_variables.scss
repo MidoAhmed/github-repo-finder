@@ -1,0 +1,84 @@
+/******   Font *******/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
+$font-main: lato, sans-serif ;
+$btn-font-size: 12px !important;
+
+/******   Colors *******/
+
+$primaryColor: #3D86C7;
+$secondaryColor: #00B439;
+$tertiaryColor: #F9F9F9;
+$lightTertiaryColor: #57585b;
+$quaternaryColor: #9B9B9B;
+$quinaryColor: #FF9502;
+$senaryColor: #4DC8FF;
+$septenaryColor: #03E24D;
+$octonaryColor: #4A4A4A;
+$nonaryColor: #687178;
+$denaryColor: #DFDFDF;
+$color : #fff;
+$mainColor: $primaryColor;
+$appBackground: white;
+$btn-color: $primaryColor;
+
+
+/******   Sidebar *******/
+
+$sidebar-width: 250px;
+$header-height: 61px;
+$sidebar-background: #3D85C7;
+$header-background: #3D86C7;
+//$sidebar-menuItem-background-1: #F1F1F1;
+//$sidebar-menuItem-background-2: #3D86C7;
+//$sidebar-menuItem-background-3: #387BB7;
+//
+//$sidebarTextColor-1: #3D86C7;
+//$sidebarTextColor-2: #EAEAEA;
+//$sidebarTextColorHover: #3D86C7;
+
+//item
+$sidebar-menuItem-text-1: #387BB7;
+$sidebar-menuItem-background-1: #F1F1F1;
+
+$sidebar-menuItem-text-2: #fff;
+$sidebar-menuItem-background-2: #275097;
+
+$sidebar-menuItem-text-3: #fff;
+$sidebar-menuItem-background-3: #5EA2EB;
+
+// hovered item
+$sidebar-menuItem-background-hover-1: #fff;
+$sidebar-menuItem-background-hover-2: #387BB7;
+$sidebar-menuItem-background-hover-3: #3D86C7;
+
+$sidebar-menuItem-text-hover-1: #666666;
+$sidebar-menuItem-text-hover-2: #fff;
+$sidebar-menuItem-text-hover-3: #fff;
+
+// Active item
+$sidebar-menuItem-text-active-1: #387BB7;
+$sidebar-menuItem-background-active-1: #fff;
+
+$sidebar-menuItem-text-active-2: #387BB7;//#387BB7;
+$sidebar-menuItem-background-active-2: #fff;//#3D86C7;
+
+$sidebar-menuItem-text-active-3: #387BB7;//#fff;
+$sidebar-menuItem-background-active-3: #fff;//#3D86C7;
+//
+//$sidebar-activeTabBackground: #FFF;
+//$sidebar-activeTabBorder: 5px solid #20509E;
+//$sidebar-activeTabColor: #666666;
+
+//$sidebar-menuItem-activeTabBackground: #387BB7;
+
+$header-activeTabBackground: #fff;
+$header-activeTabBorder: 3px solid;
+$header-activeTabColor: $primaryColor;
+
+$headerTextColor: #fff;
+$yiq-contrasted-threshold: 250;
+
+/****** Drag & Drop *******/
+
+$height-object-drag-drop : 544px;

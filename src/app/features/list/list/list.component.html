@@ -4,8 +4,10 @@
     <p>Here's who we can think of, but surely creative people will surprise us.</p>-->
   </div>
   <div class="container">
-    <div class="steps__inner">
 
-    </div>
+      <ng-container *ngFor="let repos of (store.state$ | async).repos_list">
+        <app-repository [repository]="repos"></app-repository>
+      </ng-container>
+
   </div>
 </div>

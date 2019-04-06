@@ -1,4 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+@import './sass/variables';
+@import './sass/bootstrap-custom';
+
 @import url("https://fonts.googleapis.com/css?family=Lato:400");
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -595,7 +598,8 @@ label {
   margin-bottom: 2pt;
   display: block;
   text-align: left;
-  color: #666;
+  //color: #666;
+  color: #ffffff;
   font-size: 0.9em;
   padding-left: 10pt;
 }
@@ -849,7 +853,6 @@ select::-ms-expand {
 }
 
 .landing__section {
-  height: -webkit-fill-available;
   padding: 24pt 0;
   background-image: url("./assets/images/hero-circuit-bg.svg");
   background-position: center center;
@@ -1747,4 +1750,16 @@ select::-ms-expand {
     transform: none;
     transition: none;
   }
+}
+
+.pull-left{
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.pull-right{
+  text-align: right;
 }

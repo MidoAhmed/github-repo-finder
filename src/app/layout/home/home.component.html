@@ -1,5 +1,4 @@
 <app-header></app-header>
-<!-- sub Header-->
 <div class="hero">
   <div class="hero__overlay hero__overlay--gradient"></div>
   <div class="hero__mask"></div>
@@ -7,19 +6,24 @@
     <div class="container">
       <div class="hero__content">
         <div class="hero__content__inner" id='navConverter'>
-          <h1 class="hero__title">A production-ready theme for your projects</h1>
-          <p class="hero__text"></p>
+          <h1 class="hero__title">Searching repositories</h1>
+          <p class="hero__text">You can search for repositories globally across all of GitHub, or search for a particular repository or organization.</p>
           <form>
+            <p class="row pull-left">
+              <input type="checkbox" id="check" checked/>
+              <label for="check">All repositories</label>
+            </p>
             <div class="double">
               <div class="half">
-                <label for="first">First</label>
-                <input type="text" id="first" placeholder="Type...">
+                <label for="owner">Owner</label>
+                <input type="text" id="owner" placeholder="Type...">
               </div>
               <div class="half">
-                <label for="second">Last</label>
-                <input type="text" id="second" placeholder="Type...">
+                <label for="repo">Repository</label>
+                <input type="text" id="repo" placeholder="Type...">
               </div>
             </div>
+            <button class="button button__accent">Search</button>
           </form>
         </div>
       </div>
